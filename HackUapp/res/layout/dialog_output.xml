@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="8px"
+    android:paddingLeft="8px"
+    android:paddingRight="8px"
+    android:background="#0EBDFF" >
+
+	<ImageView
+	    android:layout_width="fill_parent"
+	    android:layout_height="3px"
+	    android:layout_marginLeft="2px"
+	    android:layout_marginRight="2px"
+	    android:gravity="fill_horizontal"
+	    android:scaleType="fitXY"
+	    android:src="@android:drawable/divider_horizontal_dark"
+	    />
+
+	<TextView
+	    android:id="@+id/compTxt"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10px"
+		android:textColor="#000000"
+		android:text="Send a Complete Pass!!"
+		android:textSize="20sp"
+	    />
+
+	<TextView
+	    android:id="@+id/outputTxt"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ffffff"
+	    android:clickable="false"
+	    android:gravity="center"
+	    android:text="Complete Pass :"
+	    android:textColor="#000000"
+	    android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100px"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/okbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF796F"
+            android:layout_margin="5dip"
+            android:text="OK!" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>

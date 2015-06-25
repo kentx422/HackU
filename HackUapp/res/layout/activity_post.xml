@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:background="#0EBDFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/IDContainer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+          android:background="#76717F"
+          android:layout_marginBottom="5dip"
+        >
+
+        <TextView
+            android:id="@+id/uPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:drawableLeft="@drawable/hpb"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="1000pt"
+            android:layout_marginLeft="15dip"
+            android:textSize="11pt" />
+
+        <TextView
+            android:id="@+id/uName"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:text="Name"
+            android:gravity="center"
+            android:textSize="12pt" />
+    </LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/IDContainer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     </LinearLayout>
+
+     <EditText
+         android:id="@+id/subtxt"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="件名" 
+         android:textColor="#000000"
+           android:layout_margin="10px"
+         android:textSize="12pt"
+         android:inputType="text" >
+
+         <requestFocus />
+     </EditText>
+
+    <EditText
+        android:id="@+id/bodytxt"
+        android:layout_width="fill_parent"
+        android:layout_height="237dp"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_weight="7824199.50"
+        android:gravity="center_vertical|top"
+        android:hint="本文"
+        android:textSize="12pt" />
+    
+    <ImageButton
+        android:id="@+id/postbtn"
+        android:layout_width="172dp"
+        android:layout_height="55dp"
+        android:layout_margin="15px"
+        android:layout_gravity="center"
+
+        android:background="@drawable/posted"/>
+
+<LinearLayout
+        android:id="@+id/IDContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:fitsSystemWindows="true">
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
