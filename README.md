@@ -2,6 +2,7 @@ HackU(Anyone Can Be HERO)
 ====
 
 ![rogo](https://github.com/kentx422/Resource/blob/master/img/hackU_rogo.png?raw=true)
+
 困ってる人を助けるAndroidアプリ
 ハッカソンに参加した際にグループで開発
 サーバ都の通信およびデータベース管理部分を担当
